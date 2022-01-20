@@ -1,0 +1,707 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://KeyboardController.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="ViewportContainer" type="ViewportContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = 400.0
+margin_bottom = 800.0
+stretch = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="InputFields" type="GridContainer" parent="ViewportContainer"]
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -157.0
+margin_top = 77.0
+margin_right = -1.0
+margin_bottom = -584.0
+rect_scale = Vector2( 2, 2 )
+columns = 5
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1, 1" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_right = 28.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 28, 28 )
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/1, 1"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="1, 2" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 32.0
+margin_right = 60.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/1, 2"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="1, 3" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 64.0
+margin_right = 92.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/1, 3"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="1, 4" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 96.0
+margin_right = 124.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/1, 4"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="1, 5" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 128.0
+margin_right = 156.0
+margin_bottom = 28.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/1, 5"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="2, 1" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_top = 32.0
+margin_right = 28.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/2, 1"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="2, 2" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 32.0
+margin_top = 32.0
+margin_right = 60.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/2, 2"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="2, 3" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 64.0
+margin_top = 32.0
+margin_right = 92.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/2, 3"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="2, 4" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 96.0
+margin_top = 32.0
+margin_right = 124.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/2, 4"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="2, 5" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 128.0
+margin_top = 32.0
+margin_right = 156.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/2, 5"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="3, 1" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_top = 64.0
+margin_right = 28.0
+margin_bottom = 92.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/3, 1"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="3, 2" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 32.0
+margin_top = 64.0
+margin_right = 60.0
+margin_bottom = 92.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/3, 2"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="3, 3" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 64.0
+margin_top = 64.0
+margin_right = 92.0
+margin_bottom = 92.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/3, 3"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="3, 4" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 96.0
+margin_top = 64.0
+margin_right = 124.0
+margin_bottom = 92.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/3, 4"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="3, 5" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 128.0
+margin_top = 64.0
+margin_right = 156.0
+margin_bottom = 92.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/3, 5"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="4, 1" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_top = 96.0
+margin_right = 28.0
+margin_bottom = 124.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/4, 1"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="4, 2" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 32.0
+margin_top = 96.0
+margin_right = 60.0
+margin_bottom = 124.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/4, 2"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="4, 3" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 64.0
+margin_top = 96.0
+margin_right = 92.0
+margin_bottom = 124.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/4, 3"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="4, 4" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 96.0
+margin_top = 96.0
+margin_right = 124.0
+margin_bottom = 124.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/4, 4"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="4, 5" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 128.0
+margin_top = 96.0
+margin_right = 156.0
+margin_bottom = 124.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/4, 5"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="5, 1" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_top = 128.0
+margin_right = 28.0
+margin_bottom = 156.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/5, 1"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="5, 2" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 32.0
+margin_top = 128.0
+margin_right = 60.0
+margin_bottom = 156.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/5, 2"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="5, 3" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 64.0
+margin_top = 128.0
+margin_right = 92.0
+margin_bottom = 156.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/5, 3"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="5, 4" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 96.0
+margin_top = 128.0
+margin_right = 124.0
+margin_bottom = 156.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/5, 4"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="5, 5" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 128.0
+margin_top = 128.0
+margin_right = 156.0
+margin_bottom = 156.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/5, 5"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="6, 1" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_top = 160.0
+margin_right = 28.0
+margin_bottom = 188.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/6, 1"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="6, 2" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 32.0
+margin_top = 160.0
+margin_right = 60.0
+margin_bottom = 188.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/6, 2"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="6, 3" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 64.0
+margin_top = 160.0
+margin_right = 92.0
+margin_bottom = 188.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/6, 3"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="6, 4" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 96.0
+margin_top = 160.0
+margin_right = 124.0
+margin_bottom = 188.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/6, 4"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="6, 5" type="PanelContainer" parent="ViewportContainer/InputFields"]
+margin_left = 128.0
+margin_top = 160.0
+margin_right = 156.0
+margin_bottom = 188.0
+rect_min_size = Vector2( 28, 28 )
+
+[node name="Label" type="Label" parent="ViewportContainer/InputFields/6, 5"]
+margin_left = 7.0
+margin_top = 7.0
+margin_right = 21.0
+margin_bottom = 21.0
+align = 1
+
+[node name="Keyboard" type="GridContainer" parent="ViewportContainer"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -195.0
+margin_top = -202.0
+margin_right = 45.0
+margin_bottom = -105.0
+rect_scale = Vector2( 1.5, 1.5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TopRows" type="GridContainer" parent="ViewportContainer/Keyboard"]
+margin_right = 259.0
+margin_bottom = 84.0
+columns = 10
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Q" type="Button" parent="ViewportContainer/Keyboard/TopRows"]
+margin_right = 23.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 0, 40 )
+text = "Q"
+
+[node name="W" type="Button" parent="ViewportContainer/Keyboard/TopRows"]
+margin_left = 27.0
+margin_right = 52.0
+margin_bottom = 40.0
+text = "W"
+
+[node name="E" type="Button" parent="ViewportContainer/Keyboard/TopRows"]
+margin_left = 56.0
+margin_right = 78.0
+margin_bottom = 40.0
+text = "E"
+
+[node name="R" type="Button" parent="ViewportContainer/Keyboard/TopRows"]
+margin_left = 82.0
+margin_right = 102.0
+margin_bottom = 40.0
+text = "R"
+
+[node name="T" type="Button" parent="ViewportContainer/Keyboard/TopRows"]
+margin_left = 106.0
+margin_right = 128.0
+margin_bottom = 40.0
+text = "T"
+
+[node name="Y" type="Button" parent="ViewportContainer/Keyboard/TopRows"]
+margin_left = 132.0
+margin_right = 154.0
+margin_bottom = 40.0
+text = "Y"
+
+[node name="U" type="Button" parent="ViewportContainer/Keyboard/TopRows"]
+margin_left = 158.0
+margin_right = 180.0
+margin_bottom = 40.0
+text = "U"
+
+[node name="I" type="Button" parent="ViewportContainer/Keyboard/TopRows"]
+margin_left = 184.0
+margin_right = 204.0
+margin_bottom = 40.0
+text = "I"
+
+[node name="O" type="Button" parent="ViewportContainer/Keyboard/TopRows"]
+margin_left = 208.0
+margin_right = 231.0
+margin_bottom = 40.0
+text = "O"
+
+[node name="P" type="Button" parent="ViewportContainer/Keyboard/TopRows"]
+margin_left = 235.0
+margin_right = 259.0
+margin_bottom = 40.0
+text = "P"
+
+[node name="A" type="Button" parent="ViewportContainer/Keyboard/TopRows"]
+margin_top = 44.0
+margin_right = 23.0
+margin_bottom = 84.0
+rect_min_size = Vector2( 0, 40 )
+text = "A"
+
+[node name="S" type="Button" parent="ViewportContainer/Keyboard/TopRows"]
+margin_left = 27.0
+margin_top = 44.0
+margin_right = 52.0
+margin_bottom = 84.0
+text = "S"
+
+[node name="D" type="Button" parent="ViewportContainer/Keyboard/TopRows"]
+margin_left = 56.0
+margin_top = 44.0
+margin_right = 78.0
+margin_bottom = 84.0
+text = "D"
+
+[node name="F" type="Button" parent="ViewportContainer/Keyboard/TopRows"]
+margin_left = 82.0
+margin_top = 44.0
+margin_right = 102.0
+margin_bottom = 84.0
+text = "F"
+
+[node name="G" type="Button" parent="ViewportContainer/Keyboard/TopRows"]
+margin_left = 106.0
+margin_top = 44.0
+margin_right = 128.0
+margin_bottom = 84.0
+text = "G"
+
+[node name="H" type="Button" parent="ViewportContainer/Keyboard/TopRows"]
+margin_left = 132.0
+margin_top = 44.0
+margin_right = 154.0
+margin_bottom = 84.0
+text = "H"
+
+[node name="J" type="Button" parent="ViewportContainer/Keyboard/TopRows"]
+margin_left = 158.0
+margin_top = 44.0
+margin_right = 180.0
+margin_bottom = 84.0
+text = "J"
+
+[node name="K" type="Button" parent="ViewportContainer/Keyboard/TopRows"]
+margin_left = 184.0
+margin_top = 44.0
+margin_right = 204.0
+margin_bottom = 84.0
+text = "K"
+
+[node name="L" type="Button" parent="ViewportContainer/Keyboard/TopRows"]
+margin_left = 208.0
+margin_top = 44.0
+margin_right = 231.0
+margin_bottom = 84.0
+text = "L"
+
+[node name="M" type="Button" parent="ViewportContainer/Keyboard/TopRows"]
+margin_left = 235.0
+margin_top = 44.0
+margin_right = 259.0
+margin_bottom = 84.0
+rect_pivot_offset = Vector2( -290, -60 )
+text = "M"
+
+[node name="BottomRow" type="GridContainer" parent="ViewportContainer/Keyboard"]
+margin_top = 88.0
+margin_right = 259.0
+margin_bottom = 128.0
+columns = 8
+
+[node name="ENTER" type="Button" parent="ViewportContainer/Keyboard/BottomRow"]
+margin_right = 51.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 0, 40 )
+text = "ENTER"
+
+[node name="Z" type="Button" parent="ViewportContainer/Keyboard/BottomRow"]
+margin_left = 55.0
+margin_right = 75.0
+margin_bottom = 40.0
+rect_pivot_offset = Vector2( -290, -60 )
+text = "Z"
+
+[node name="X" type="Button" parent="ViewportContainer/Keyboard/BottomRow"]
+margin_left = 79.0
+margin_right = 99.0
+margin_bottom = 40.0
+rect_pivot_offset = Vector2( -290, -60 )
+text = "X"
+
+[node name="C" type="Button" parent="ViewportContainer/Keyboard/BottomRow"]
+margin_left = 103.0
+margin_right = 123.0
+margin_bottom = 40.0
+rect_pivot_offset = Vector2( -290, -60 )
+text = "C"
+
+[node name="V" type="Button" parent="ViewportContainer/Keyboard/BottomRow"]
+margin_left = 127.0
+margin_right = 147.0
+margin_bottom = 40.0
+rect_pivot_offset = Vector2( -290, -60 )
+text = "V"
+
+[node name="B" type="Button" parent="ViewportContainer/Keyboard/BottomRow"]
+margin_left = 151.0
+margin_right = 172.0
+margin_bottom = 40.0
+rect_pivot_offset = Vector2( -290, -60 )
+text = "B"
+
+[node name="N" type="Button" parent="ViewportContainer/Keyboard/BottomRow"]
+margin_left = 176.0
+margin_right = 198.0
+margin_bottom = 40.0
+rect_pivot_offset = Vector2( -290, -60 )
+text = "N"
+
+[node name="DELETE" type="Button" parent="ViewportContainer/Keyboard/BottomRow"]
+margin_left = 202.0
+margin_right = 259.0
+margin_bottom = 40.0
+rect_pivot_offset = Vector2( -290, -60 )
+text = "DELETE"
+
+[node name="PopupDialog" type="PopupDialog" parent="ViewportContainer"]
+visible = true
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -126.0
+margin_top = 5.0
+margin_right = 125.0
+margin_bottom = 48.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="ViewportContainer/PopupDialog"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/Q" to="." method="_on_key_pressed" binds= [ "Q" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/W" to="." method="_on_key_pressed" binds= [ "W" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/E" to="." method="_on_key_pressed" binds= [ "E" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/R" to="." method="_on_key_pressed" binds= [ "R" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/T" to="." method="_on_key_pressed" binds= [ "T" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/Y" to="." method="_on_key_pressed" binds= [ "Y" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/U" to="." method="_on_key_pressed" binds= [ "U" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/I" to="." method="_on_key_pressed" binds= [ "I" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/O" to="." method="_on_key_pressed" binds= [ "O" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/P" to="." method="_on_key_pressed" binds= [ "P" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/A" to="." method="_on_key_pressed" binds= [ "A" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/S" to="." method="_on_key_pressed" binds= [ "S" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/D" to="." method="_on_key_pressed" binds= [ "D" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/F" to="." method="_on_key_pressed" binds= [ "F" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/G" to="." method="_on_key_pressed" binds= [ "G" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/H" to="." method="_on_key_pressed" binds= [ "H" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/J" to="." method="_on_key_pressed" binds= [ "J" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/K" to="." method="_on_key_pressed" binds= [ "K" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/L" to="." method="_on_key_pressed" binds= [ "L" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/M" to="." method="_on_key_pressed" binds= [ "M" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/BottomRow/ENTER" to="." method="_on_ENTER_pressed"]
+[connection signal="pressed" from="ViewportContainer/Keyboard/BottomRow/Z" to="." method="_on_key_pressed" binds= [ "Z" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/BottomRow/X" to="." method="_on_key_pressed" binds= [ "X" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/BottomRow/C" to="." method="_on_key_pressed" binds= [ "C" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/BottomRow/V" to="." method="_on_key_pressed" binds= [ "V" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/BottomRow/B" to="." method="_on_key_pressed" binds= [ "B" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/BottomRow/N" to="." method="_on_key_pressed" binds= [ "N" ]]
+[connection signal="pressed" from="ViewportContainer/Keyboard/BottomRow/DELETE" to="." method="_on_DELETE_pressed"]
+[connection signal="about_to_show" from="ViewportContainer/PopupDialog" to="." method="_on_PopupDialog_about_to_show"]
