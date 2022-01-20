@@ -704,4 +704,3 @@ __meta__ = {
 [connection signal="pressed" from="ViewportContainer/Keyboard/BottomRow/B" to="." method="_on_key_pressed" binds= [ "B" ]]
 [connection signal="pressed" from="ViewportContainer/Keyboard/BottomRow/N" to="." method="_on_key_pressed" binds= [ "N" ]]
 [connection signal="pressed" from="ViewportContainer/Keyboard/BottomRow/DELETE" to="." method="_on_DELETE_pressed"]
-[connection signal="about_to_show" from="ViewportContainer/PopupDialog" to="." method="_on_PopupDialog_about_to_show"]
