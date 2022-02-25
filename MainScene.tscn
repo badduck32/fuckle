@@ -676,6 +676,16 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="EndgameDialog" type="AcceptDialog" parent="ViewportContainer"]
+visible = true
+anchor_right = 1.0
+margin_left = 22.0
+margin_top = 220.0
+margin_right = -22.0
+margin_bottom = 220.0
+window_title = ""
+dialog_text = "You guessed the word correctly!"
+
 [connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/Q" to="." method="_on_key_pressed" binds= [ "Q" ]]
 [connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/W" to="." method="_on_key_pressed" binds= [ "W" ]]
 [connection signal="pressed" from="ViewportContainer/Keyboard/TopRows/E" to="." method="_on_key_pressed" binds= [ "E" ]]
@@ -704,3 +714,4 @@ __meta__ = {
 [connection signal="pressed" from="ViewportContainer/Keyboard/BottomRow/B" to="." method="_on_key_pressed" binds= [ "B" ]]
 [connection signal="pressed" from="ViewportContainer/Keyboard/BottomRow/N" to="." method="_on_key_pressed" binds= [ "N" ]]
 [connection signal="pressed" from="ViewportContainer/Keyboard/BottomRow/DELETE" to="." method="_on_DELETE_pressed"]
+[connection signal="confirmed" from="ViewportContainer/EndgameDialog" to="." method="_restart"]
