@@ -5,14 +5,14 @@ var _row = 1
 
 #12972 lines
 var words = "res://allwords.txt"
-#2315 lines
-var solutions = "res://solutions.txt"
+#41 lines
+var solutions = "res://swearwords.txt"
 
 var _cur_word
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	randomize()
-	var _rand_index = randi() % 2315
+	var _rand_index = randi() % 41
 	var f = File.new()
 	f.open(solutions, File.READ)
 	for _i in range(0, _rand_index):
